@@ -18,4 +18,4 @@ design/
 node_modules/
 src/
 package-lock.json
-tailwin.config.json
+tailwind.config.js

@@ -17,6 +17,9 @@ module.exports = {
       },
       gridTemplateRows: {
         3: "repeat(3, auto)",
+      },
+      width: {
+        50: "calc(50% - 32px)",
       }
     },
   },

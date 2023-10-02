@@ -15,8 +15,6 @@ This is a solution to the [Huddle landing page with single introductory section 
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-tailwindcss-huddle-landing-page-with-introductory-section-m7aG-Oa23h)
+- Live Site URL: [live site URL](https://yassine-ramla.github.io/Frontend-Mentor-Huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
