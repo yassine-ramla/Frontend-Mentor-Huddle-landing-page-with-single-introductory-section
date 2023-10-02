@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/24586da879.js"
+      crossorigin="anonymous"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+    <style>
+      a:hover > i {
+        color: hsl(300, 69%, 71%);
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-[100svh] bg-myViolet bg-mobile lg:bg-desktop bg-contain lg:bg-cover bg-no-repeat bg-top lg:bg-center grid grid-rows-3 grid-cols-1 place-items-center">
+    <header class="w-full max-w-[1440px] py-3 sm:py-6 lg:py-12 px-8 lg:px-10">
+      <h1 class="hidden">Huddle community</h1>
+      <img
+        src="./images/logo.svg"
+        alt="huddle logo"
+        class="w-[40%] lg:w-auto lg:scale-90" />
+    </header>
+    <main
+      class="w-full h-full px-[10%] lg:px-16 sm:pb-24 lg:py-10 lg:flex lg:justify-center lg:items-center lg:gap-x-16 max-w-[1440px]">
+      <img
+        src="./images/illustration-mockups.svg"
+        alt="illustration mockups"
+        class="m-auto w-full py-14 sm:py-28 lg:py-0" />
+      <section class="w-full flex flex-col gap-y-6 sm:gap-y-10 lg:gap-y-6">
+        <h2
+          class="text-white text-2xl sm:text-5xl text-center lg:text-left font-semibold font-popins leading-tight lg:leading-snug">
+          Build The Community Your Fans Will Love
+        </h2>
+        <p
+          class="text-center lg:text-left text-white text-md sm:text-3xl lg:text-xl font-normal font-openSans sm:px-4 lg:px-0 lg:pr-10 leading-normal">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button
+          class="w-2/3 lg:w-auto rounded-full bg-white text-myViolet text-md sm:text-3xl lg:text-xl font-normal font-popins m-auto lg:m-0 p-2 lg:px-20 lg:py-4 sm:p-6 shadow-xl lg:self-start hover:bg-mySoftMagenta hover:text-white">
+          Register
+        </button>
+      </section>
+    </main>
+    <footer
+      class="w-full flex justify-center lg:justify-end items-center gap-4 sm:gap-x-8 lg:gap-x-2 py-10 sm:py-20 lg:py-8 lg:px-20">
+      <a
+        href="#"
+        class="h-10 sm:h-20 lg:h-10 grid place-items-center border-2 border-white rounded-full aspect-square hover:border-mySoftMagenta">
+        <i
+          class="fa-brands fa-facebook-f text-white sm:text-4xl lg:text-lg"></i>
+      </a>
+      <a
+        href="#"
+        class="h-10 sm:h-20 lg:h-10 grid place-items-center border-2 border-white rounded-full aspect-square hover:border-mySoftMagenta">
+        <i class="fa-brands fa-twitter text-white sm:text-4xl lg:text-lg"></i>
+      </a>
+      <a
+        href="#"
+        class="h-10 sm:h-20 lg:h-10 grid place-items-center border-2 border-white rounded-full aspect-square hover:border-mySoftMagenta">
+        <i class="fa-brands fa-instagram text-white sm:text-4xl lg:text-lg"></i>
+      </a>
+    </footer>
+  </body>
+</html>
